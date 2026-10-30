@@ -1,0 +1,18 @@
+/* Task: embed each icon in the css source
+ * as base64 data, e.g.:
+ * url("data:image/png;base64,iVBORw0KGgoA…");
+ * Tip: use `base64 -w 0 <filename>`
+ */
+
+.icon.fire {
+  background-image: url("icons/fire.png");
+}
+.icon.folder {
+  background-image: url("icons/folder.png");
+}
+.icon.key {
+  background-image: url("icons/key.png");
+}
+.icon.wrench {
+  background-image: url("icons/wrench.png");
+}
